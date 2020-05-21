@@ -1,4 +1,2 @@
 # syslogetl
-Saving all the syslog messages to a SQL db
-
-It was mainly a project to work on concurrency using locks to synochronize between performing various operation concurrently.
+A project to move syslog data to MySQL developed by C where multiple producers and consumers implemented to move log messages from a syslog file to a temporary file and then to MySQL database concurrently.
